@@ -1,0 +1,357 @@
+.wrapper{
+    margin-left: 5%;
+    margin-right:5%;
+}
+.logo h1{
+	font-size: 36px;
+	font-weight: 600;
+    margin: 0;
+    margin-top:-5px;   
+}
+.logo h1 span:first-of-type{
+	border: 1px solid #ddd;
+    margin-right: 5px;
+    color: #D19C97;
+    padding:0px 10px;
+}
+.search-product input{
+	width: 70%;
+	height: 40px;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 18px;
+    color: #666;
+    border: 1px solid #ddd;
+    border-right: none;
+}
+.search-product button{
+	height: 40px;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    margin-left:-10px;
+   	color: #D19C97;
+}
+.search-product input:focus{
+	outline: none;
+}
+.header{
+	margin-top: 25px;
+	min-height: 50px;
+}
+
+.selected-product {
+    text-align: right;
+}
+.full-banner-wrapper{
+	border-top: 1px solid #ddd;
+}
+.list-header{
+	background-color:#D19C97;
+    height: 65px;
+}
+.list-header h4{
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-weight:500; 
+}
+.list-header span{
+	float: right;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+.category-list ul{
+	margin:0px;
+	padding: 0px;
+	list-style-type:none;
+	border:1px solid #ddd;
+}
+.category-list ul li{
+	padding:10px 40px;
+	border-bottom: 1px solid #ddd;
+}
+.category-list ul li a{
+	color:#333;
+	text-decoration:none;
+}
+
+.left-menu-list{
+	width: 70%;
+}
+.right-menu-list{
+	width: 30%;
+	position: rtl;
+	margin-right: 100px;
+}
+.shop-menu{
+	display: flex;
+}
+.shop-menu ul{
+	display: flex;
+	margin:0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.shop-menu ul li{
+	min-width: 75px;
+	padding: 20px;	
+}
+.shop-menu ul.dropdown{
+	display: none;
+	border: 1px solid #DDD;
+	position: absolute;
+	box-shadow: #ddd 1px 1px 4px;
+	    z-index: 1;
+}
+.shop-menu ul li a{
+	color:#333;
+	text-decoration: none;
+}
+.shop-menu ul li a:hover{
+	color:#D19C97; 
+}
+.dropdown-head:hover ul.dropdown{
+	display: block;
+}
+.banner{
+	height: 400px;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-left: 10px;
+}
+.banner img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-text{
+	top: 54px;
+    bottom: 0;
+    left: 82px;
+    right: 0;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF;
+}
+.banner-text h4{
+	text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 500;
+    margin: 0;
+}
+.banner-text h3{
+	font-size: 50px;
+    margin: 0;
+}
+.banner-text a{
+	background-color: #FFF;
+    color: #000;
+    padding: 10px 20px
+}
+.features-point{
+	border: 1px solid #ddd;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 25px;
+}
+.features-point .icon-text-wrap{
+	padding:30px;
+	display: flex;
+}
+.icon-text-wrap i{
+	font-size: :30px;
+	color:#D19C97; 
+}
+.icon-text-wrap span{
+	font-size: :28px;
+	padding-left: 20px;
+	font-weight: 600; 
+}
+.category-item{
+	border:1px solid #CCC;
+	padding: 30px;
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-bottom: 50px;
+}
+.category-item .product-count{
+	margin-bottom:  10px;
+	text-align: right;
+}
+.category-item .category-image img{
+	width: 100%;
+}
+.category-item .category-type{
+	margin-bottom: 0px;
+	font-size: 25px;
+}
+.offer-banner{
+	background-color: #EDF1FF !important;
+	margin-bottom: 50px;
+	margin-right: 25px;
+	position: relative;
+}
+.offer-banner img{
+	position: absolute;
+	max-width: 50%;
+	max-height: 90%;
+	bottom: 0;
+	z-index: 100;
+	float: left; 
+}
+.offer-text{
+	text-align: right;
+	padding: 40px;
+}
+.offer-banner .offer-text h3{
+	 color:#D19C97 !important;
+	 font-size: 25px;
+	 text-transform: uppercase;
+	 margin:0;
+	 font-weight: 400;
+}
+.offer-banner .offer-text h4{
+	 font-size: 35px;
+	 font-weight: 600;
+	 margin-top: 20px;
+}
+.offer-banner .offer-text button{
+	 padding: 15px 30px;
+	 color:#D19C97 !important;
+	 border: 1px solid #D19C97;
+	 background-color: transparent;
+	 cursor: pointer;
+}
+.cart{
+	border: 1px solid #ddd;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.cart img{
+	width: 100%;
+}
+.cart .cart-details{
+	border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+}
+.cart .cart-details .name-head{
+	margin:0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+}
+.cart .cart-details .cart-price{
+	display: flex;
+	justify-content: center;
+}
+.cart .cart-price h6{
+	margin:0;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 5px;
+}
+.cart .cart-price h6.last{
+	text-decoration: line-through;
+	color:#888;
+}
+.cart .cart-footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+}
+.cart .cart-footer a{
+	color:#D19c95;
+	font-size: 12px;
+}
+.stay-updated{
+	background-color: #EDF1FF;
+	margin-left: -5.5%;
+	margin-right: -5.5%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 50px;
+	padding-bottom: 80px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.stay-updated p{
+	line-height: 2;
+}
+.stay-updated .updated-inputs{
+	display: flex;
+}
+.stay-updated .updated-inputs input{
+	flex: 100%;
+	border-radius: 0px;
+	border:none;
+	height: 47px;
+	padding-left: 20px;
+	font-size: 16px;
+}
+.stay-updated .updated-inputs .email-btn{
+	border:1px solid #D19C97;
+	background-color: #D19C97;
+	padding:13px 30px;
+	font-size: 16px;
+}
+.updated-inputs input:focus{
+	outline: none;
+}
+.footer{
+	background-color: #EDF1FF;
+	display: flex;
+	margin-left: -5.5%;
+	margin-right: -5.5%;
+	padding: 30px;
+}
+.footer-desc{
+	line-height: 1.5;
+	text-align: justify;
+}
+.contact-list li{
+	list-style-type: none;
+	line-height: 2;
+}
+.contact-list li i{
+	color: #D19C97;
+	margin-right: 10px;
+}
+.quick-links{
+	padding-left: 60px;
+}
+.quick-links h3{
+	padding-left: 40px;
+}
+.links-list li{
+	list-style-type: none;
+	line-height: 2;
+}
+.links-list i{
+	padding-right: 10px;
+}
+.news-name{
+	border: none;
+	padding: 10px;
+	width: 80%;
+	margin-bottom:  20px;
+}
+.news-email{
+	border: none;
+	padding: 10px;
+	width: 80%;
+	margin-bottom:  20px;
+}
+.email-btn{
+	border:none;
+	background-color: #D19C97;
+	padding:13px 30px;
+	font-size: 16px;
+	width: 80%;
+}
